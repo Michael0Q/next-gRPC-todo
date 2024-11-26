@@ -1,0 +1,25 @@
+.done {
+
+}
+
+.done::before{
+    display: block;
+    content: '';
+    width: 22px;
+    height: 22px;
+    background-color: #ABFF61;
+    border-radius: 999px;
+}
+
+.undone {
+
+}
+
+.undone::before{
+    display: block;
+    content: '';
+    width: 22px;
+    height: 22px;
+    background-color: #D9D9D9;
+    border-radius: 999px;
+}

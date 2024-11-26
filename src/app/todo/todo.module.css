@@ -1,0 +1,77 @@
+.add_task_button_container{
+    max-width: 413px;
+    padding: 8px;
+    border: 1px solid black;
+    margin: 0 auto 24px;
+    text-align: center;
+}
+
+.add_task_button{
+
+}
+
+.navigation_container{
+    max-width: 689px;
+    margin: 0 auto 48px;
+}
+
+.filter_container{
+    max-width: 689px;
+    margin: 0 auto 24px;
+}
+
+.add_filter_button{
+    width: 45px;
+    height: 45px;
+    position: relative;
+    border-radius: 9999px;
+    border: 1px dotted black ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add_filter_button::after{
+    content: "+";
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+.status_container{
+    display: flex;
+    gap: 16px;
+    max-width: 689px;
+    margin: 0 auto;
+}
+
+.status{
+    display: flex;
+    gap: 8px;
+}
+
+.todo_container{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    max-width: 689px;
+    margin: 0 auto;
+}
+
+.todo{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.todotext{
+    font-size: 24px;
+}
+
+.todo::before{
+    content: '';
+    height: 50px;
+    width: 50px;
+    border-radius: 999px;
+    border: 1px solid black;
+}
